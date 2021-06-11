@@ -1,0 +1,160 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50px;
+}
+
+header,
+header:before {
+    background: 50% 50% / cover;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url("https://wallpaperaccess.com/full/1884665.jpg");
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+.container {
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    background: #FFFFFF;
+    line-height: 30px;
+    font-weight: lighter;
+    padding: 40px;
+    color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: white;
+  text-align:center;
+}
+
+nav li {
+  display:inline;
+}
+
+nav li a {
+  display: block;
+  color: gold;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-right-style:solid;
+  display:inline-block;
+}
+
+nav li:last-child a {
+    border-right: none;
+}
+
+nav li a:hover {
+  background-color: #111111;
+}
+
+
+
+h2{
+    text-align:center;
+    color: #E4BB97;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.sps{
+    margin: 75px;
+    padding-bottom: 200px;
+}
+
+.spsContent{
+    float: left;
+    width:65%
+}
+.spsContent h3{
+    color: #938E89;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.sps img{
+    display:block;
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+
+.bthh{
+    margin: 75px;
+    padding-bottom: 300px;
+}
+
+.bthhContent{
+    float: right;
+    width:50%
+}
+
+.bthhContent h3{
+    color: #938E89;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bthhPres{
+    display:block;
+    float: left;
+}

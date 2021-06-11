@@ -1,6 +1,7 @@
 # Google Software Product Sprint
 
-This repo contains the projects you'll work on throughout SPS.
+This repo contains Beaman Negash's protfolio and SPS projects.
+Hey this is my repo now 😃
 
 To get started:
 
@@ -10,3 +11,5 @@ To get started:
   - If the tutorial panel does not open or display the walkthrough contents, try refreshing the page.
 
 Then follow the on-screen instructions to set up your repo.
+
+Have A Great Day!!!!!
