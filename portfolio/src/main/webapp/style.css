@@ -8,13 +8,10 @@ html {
 }
 
 body {
-    color: white;
     margin: 0;
     padding: 0;
     perspective: 1px;
     transform-style: preserve-3d;
-    height: 100%;
-    width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -35,6 +32,7 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Covered By Your Grace', sans-serif;
 }
 
 header,
@@ -62,43 +60,49 @@ header::before {
     z-index: 2;
     position: absolute;
     top: 100vh;
-    background: #E4BB97;
+    background: pink;
     line-height: 30px;
     font-weight: lighter;
-    padding: 40px;
     color: grey;
 }
 
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
 
-#greeting-container {
-  margin-top: 20px;
-}
-
-body {
-  padding: 0;
+nav ul {
+  list-style-type: none;
   margin: 0;
-  background: #F7F7F7;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  padding: 15px;
+  overflow: hidden;
+  background-color: white;
+  text-align:center;
 }
+
+nav li {
+  display:inline;
+}
+
+nav li a {
+  display: block;
+  color: gold;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-right-style:solid;
+  display:inline-block;
+}
+
+nav li:last-child a {
+    border-right: none;
+}
+
+nav li a:hover {
+  background-color: #111111;
+}
+
 
 
 .about {
-  margin: 40px auto;
-  padding: 20px 30px 40px 30px;
-  background-color: #FFFFFF;
+  background-color: white;
   overflow: auto;
-  width: 75%;
-  border-radius: 4px;
   align-self: center;
 }
 
@@ -126,7 +130,6 @@ body {
 
 h1 {
   color: white;
-  font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
   margin: 0;
@@ -152,18 +155,6 @@ h3 {
   text-align: center;
 }
 
-ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 75%;
-}
-
-li {
-  border-bottom: 1px solid #E4BB97;
-  list-style: none;
-  margin: 100px 0px;
-  padding-bottom: 60px;
-}
 
 p {
   color: #444444;
