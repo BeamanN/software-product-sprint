@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Miscellaneous</title>
+    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800' rel='stylesheet'>
+    <link rel="stylesheet" href="misc.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+      <header>
+          <div class="navbar">
+          <nav>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Me</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="#">Miscellaneous</a></li>
+                </ul>
+            </nav>
+        </div>
+
+          <div id="homepage" class="header">
+              <h1>Miscellaneous</h1>
+        </div>
+      </header>
+
+
+
+    <div class="container">
+
+
+         <div class="music">
+            <h2>Music</h2>
+            <h3>Some Of My Favorite Albums!</h3>
+            <div class="musicFrame">
+                <iframe src="https://open.spotify.com/embed/album/1GYVNOzwhx1nMcIJDogSNp" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/album/7IyoGB8J31fvQDwGtHAq9m" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/album/7viNUmZZ8ztn2UB4XB3jIL" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/album/2nkto6YNI4rUYTLqEwWJ3o" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/album/6Te111t5gDZ7W94myHRqUt?theme=0" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/album/6tkjU4Umpo79wwkgPMV3nZ" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+
+
+        <div class="form">
+
+            <form action="/form-handler" method="POST">
+            <h2>Who's your Favorite Artist </h2>
+            <textarea name="text-input">Favorite Artist: </textarea>
+            <br/>
+            <input type="submit" />
+            </form>
+
+        </div>
+
+
+
+        <div class ="servlet">
+            <h2>Servlets</h2>
+            <h3>Click <a href="/hello" target="_blank">here</a> to see content created by server code.</h3>
+            <h3>Click <a href="/page-views" target="_blank">here</a> to see how many page views.</h3>
+            <div class="serverDate">
+                <h4>Click this button to see the server's current date.</h4>
+                <div class ="buttonDate">
+                    <button onclick="showServerTime();">
+                    Get date
+                    </button>
+                </div>
+                <p id="date-container"></p>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    
+  </body>
+
+      
+    
+
+
+</html>
