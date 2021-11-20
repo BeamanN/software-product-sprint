@@ -35,6 +35,7 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Covered By Your Grace', sans-serif;
 }
 
 header,
@@ -50,7 +51,7 @@ header::before {
     right: 0;
     bottom: 0;
     display: block;
-    background: url(http://res.cloudinary.com/simpleview/image/upload/v1592487237/clients/newyorkcity/Coronavirus_Info_midtown_manhattan_skyline_nyc_3000x2000_364fa9b8-86ce-4f95-907a-4bd8ea32f232.jpg);
+    background: url(https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg);
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
@@ -58,75 +59,51 @@ header::before {
     min-height: 100vh;
 }
 
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  text-align:center;
+}
+
+nav li {
+  display:inline;
+}
+
+nav li a {
+  display: block;
+  color: gold;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-right-style:solid;
+  display:inline-block;
+}
+
+nav li:last-child a {
+    border-right: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+
 .container {
     z-index: 2;
     position: absolute;
     top: 100vh;
-    background: #E4BB97;
+    background: cornsilk;
     line-height: 30px;
     font-weight: lighter;
     padding: 40px;
     color: grey;
 }
 
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
-
-#greeting-container {
-  margin-top: 20px;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  background: #F7F7F7;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
-
-
-.about {
-  margin: 40px auto;
-  padding: 20px 30px 40px 30px;
-  background-color: #FFFFFF;
-  overflow: auto;
-  width: 75%;
-  border-radius: 4px;
-  align-self: center;
-}
-
-.about p {
-  color: #938E89;
-  text-align: center;
-  line-height: 24px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.about img{
-    width: 400px;
-    height: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.portfolio p, .hobbies p{
-    text-align:center;
-}
-
-
 h1 {
   color: white;
-  font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
   margin: 0;
@@ -136,9 +113,9 @@ h1 {
 }
 
 h2 {
-  color: #E4BB97;
+  color: Black;
   font-family: 'Raleway', sans-serif;
-  font-size: 28px;
+  font-size: 58px;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
@@ -147,75 +124,44 @@ h2 {
 h3 {
   color: #41292C;
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
+  font-size: 35px;
   font-weight: 500;
-  text-align: center;
+  line-height: 1.6;
 }
 
-ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 75%;
+.hello{
+    margin-top:0;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border: 5px solid tomato;
+    font-family:'Viaoda Libre';
+    background-color:white;
+    border-radius: 30px;
+    text-align:center;
+
 }
 
-li {
-  border-bottom: 1px solid #E4BB97;
-  list-style: none;
-  margin: 100px 0px;
-  padding-bottom: 60px;
-}
-
-p {
-  color: #444444;
-  line-height: 32px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-}
 
 a {
   color: #214E34;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   font-weight: 900;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
 }
 
-h6 {
-  color: rgb(219, 219, 219);
-  font-family: 'Covered By Your Grace', sans-serif;
-  font-size: 100px;
-  line-height: 76px;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  top: 50%;
-}
 
-.contact {
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
+.egg{
+    text-align:center;
 }
-
-.contact a {
-  background: red;
-  border: 1px solid red;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  margin: 10px;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  background: white;
-  border: 1px solid red;
-  color: red;
+.egg a{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size:25px;
+    color: #214E34;
 }

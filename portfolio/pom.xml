@@ -16,10 +16,25 @@
 
     <!-- Project-specific properties -->
     <exec.mainClass>com.google.sps.ServerMain</exec.mainClass>
-    <googleCloudProjectId>YOUR_PROJECT_ID_HERE</googleCloudProjectId>
+    <googleCloudProjectId>bnegash-sps-summer21</googleCloudProjectId>
   </properties>
 
   <dependencies>
+
+    <!-- Datastore API -->
+    <dependency>
+        <groupId>com.google.cloud</groupId>
+        <artifactId>google-cloud-datastore</artifactId>
+        <version>1.104.0</version>
+    </dependency>
+
+
+
+
+
+
+
+
     <!-- Java Servlets API -->
     <dependency>
       <groupId>javax.servlet</groupId>
