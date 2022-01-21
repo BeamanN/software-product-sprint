@@ -35,8 +35,8 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 50px;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 100px;
 }
 
 header,
@@ -64,11 +64,11 @@ header::before {
     z-index: 2;
     position: absolute;
     top: 100vh;
-    background: #FFFFFF;
-    line-height: 30px;
+    background-image:url(https://i.pinimg.com/originals/df/27/83/df2783b38222bc6fb88ba2ccb09c02cc.jpg);
     font-weight: lighter;
-    padding: 40px;
     color: black;
+    padding: 10px 40px 40px;
+
 }
 
 nav ul {
@@ -76,7 +76,6 @@ nav ul {
   margin: 0;
   padding: 15px;
   overflow: hidden;
-  background-color: white;
   text-align:center;
 }
 
@@ -92,6 +91,9 @@ nav li a {
   text-decoration: none;
   border-right-style:solid;
   display:inline-block;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  font-size:13px;
 }
 
 nav li:last-child a {
@@ -99,62 +101,162 @@ nav li:last-child a {
 }
 
 nav li a:hover {
-  background-color: #111111;
+  color: white;
 }
 
 
 
 h2{
     text-align:center;
-    color: #E4BB97;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
+    color: #ff6666;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-    
+    border-bottom: 5px solid black;
+    padding-bottom:50px;    
 }
+
 .sps{
-    margin: 75px;
-    padding-bottom: 200px;
+    margin-top:0;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 300px;
+    padding-top: 50px;
+    border: 5px solid black;
+    font-family:'Viaoda Libre';
+    background-color:white;
+    border-radius: 30px;
 }
 
 .spsContent{
     float: left;
-    width:65%
+    width:65%;
+    text-align:center;
+    padding-left:10px;
 }
+
 .spsContent h3{
     color: #938E89;
     line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
     font-weight: 400;
+    text-align:center;
 }
 .sps img{
     display:block;
     float: right;
     width: 250px;
     height: 250px;
+    margin-right:100px;
 }
 
 .bthh{
     margin: 75px;
-    padding-bottom: 300px;
+    padding-bottom: 450px;
+    border: 5px solid black;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family:'Viaoda Libre';
+    border-radius: 30px;
+    padding-top: 25px;
+    background-color:white;
 }
 
 .bthhContent{
     float: right;
-    width:50%
+    width:50%;
+    text-align:center;
 }
 
 .bthhContent h3{
     color: #938E89;
     line-height: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
     font-weight: 400;
+    padding-bottom: 25px;
 }
 .bthhPres{
     display:block;
     float: left;
+}
+iframe{
+    padding-left:15px;
+    padding-top: 15px;
+}
+
+.pm{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family:'Viaoda Libre';
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color:white;
+}
+
+.pmContent{
+    text-align:center;
+}
+
+.pmContent h3{
+    color: #938E89;
+    line-height: 24px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.pmPics{
+    position: center;
+    text-align: center;
+}
+
+
+.pmPics img{
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+}
+
+
+.pmPics h3{
+    color: #FF6F61;
+    line-height: 24px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.git{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.git img{
+    height:50px;
+    width:50px;
+    border:5px solid black;
+}
+
+
+p{
+    font-size:25px;
+}
+
+
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
 }
